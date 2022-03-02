@@ -1,7 +1,15 @@
-# Airbnb OR Castle Battle
+# Airbnb Mockup
 
- Choose either of the labs from today to complete for your homework. 
+**February 2022. Website mockup lab for General Assembly**
 
- If you choose AirBnB: make sure you have your index.html and style.css files in this directory.
 
- If you choose Castle Battle: make sure you have your app.js and package.json file in this directory.
+## Website Link
+Hosted on GitHub Pages:
+
+https://angelafrancisco.github.io/airbnb-mockup/
+
+
+## Technology Used
+- HTML
+- CSS
+- Flexbox design
