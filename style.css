@@ -1,0 +1,194 @@
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    color: black;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#airbnb-logo {
+    height: 25px;
+    margin: 10px
+}
+.nav-link-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    margin: 0px 10px;
+}
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.main-title-img {
+    background: rgba(0, 0, 0, 0.5) url('https://images.unsplash.com/photo-1589756695365-4e0915b3a246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-blend-mode: darken;
+}
+.main-title-img h1 {
+    font-size: 70px;
+}
+.main-title-img p {
+    font-size: 18px;
+}
+.main-title-img h1, .main-title-img p {
+    margin: 0;
+    font-weight: 700;
+}
+/* same button on main img and end of 3rd section (before footer) */
+.button-find-spots {
+    text-align: center;  
+    font-size: 18px;
+    background-color: #63a868;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 10px 60px;
+    font-weight: 600;
+    box-shadow: 0 4px #437046;
+}
+.button-find-spots:hover {background-color: #437046;}
+
+.button-find-spots:active {
+    background-color: #437046;
+    box-shadow: #264128;
+    transform: translateY(2px);
+}
+
+.locals-section {
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.locals-container {
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+    background-color: white;
+    margin: 50px 20px;
+    width: 650px;
+    height: 200px;
+}
+.locals-header {
+    background-color: rgb(99, 168, 104, 0.5);
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+.locals-outer-box {
+    display: flex;
+    align-self: center;
+    height: 150px;
+}
+.locals-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.locals-box-icon {
+    align-self: center;
+}
+.locals-box p {
+    margin: 0;
+}
+.featured-heading {
+    text-align: center;
+}
+.featured-dog-parks-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 50px 0px;
+}
+.featured-3-dog-parks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 10px 40px 10px 40px;
+}
+.feature-keyword-box {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(99, 168, 104, 0.5);
+    min-height: 75px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.feature-park-img {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+/* Sandy Delta */
+.feature-park-img.L {
+    background: rgba(0, 0, 0, 0.5) url('https://images.unsplash.com/photo-1608999434711-4c0c8b1840bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960&q=80');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* Chimney */
+.feature-park-img.M {
+    background: rgba(0, 0, 0, 0.5) url('https://images.unsplash.com/photo-1621533642341-bbfa81ee9d35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGRvZyUyMHBhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* Fernhill */
+.feature-park-img.R {
+    background: rgba(0, 0, 0, 0.5) url('https://images.unsplash.com/photo-1610573501131-a9766c02001a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGRvZyUyMHBhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+h3 {
+    margin: 0;
+    padding: 10px;
+}
+.featured-heading h2 {
+    font-size: 40px;
+    margin: 50px 0px 0px 0px;
+}
+.featured-heading p {
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+}
+.feature-park-img h3 {
+    font-size: 28px;
+}
+.feature-park-img p {
+    margin: 0;
+}
+footer {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    border: 1px solid rgb(99, 99, 99);
+    width: 95%;
+    margin: 60px 0px 20px 0px;
+}
+footer p {
+    margin: 10px 0px 40px 0px;
+}
